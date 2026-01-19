@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@theme {
+    --color-primary: var(--primary-color);
+    --color-secondary: var(--secondary-color);
+    --color-accent: var(--accent-color);
+    --color-whatsapp: var(--whatsapp-color);
+
+    --font-sans: "Inter", system-ui, sans-serif;
+    --font-heading: "Outfit", sans-serif;
+}
+
+@layer base {
+    html {
+        scroll-behavior: smooth;
+    }
+
+    body {
+        @apply font-sans bg-white text-gray-800;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4 {
+        @apply font-heading;
+    }
+}
+
+@layer components {
+    .btn {
+        @apply inline-flex items-center justify-center gap-3 px-8 py-3.5 rounded-xl font-bold transition-all duration-300;
+    }
+
+    .btn-whatsapp {
+        @apply bg-whatsapp text-white shadow-lg hover:-translate-y-0.5 hover:brightness-110;
+        box-shadow: 0 4px 14px 0 rgba(37, 211, 102, 0.39);
+    }
+
+    .container {
+        @apply px-6 max-w-7xl mx-auto;
+    }
+}

@@ -1,0 +1,23 @@
+---
+import siteData from '../config/site.json';
+import { FaStar, FaUser, FaCalendarDay, FaClock } from 'react-icons/fa';
+const { confidence_items } = siteData;
+---
+
+<section class="py-16 bg-gray-50 -mt-12 relative z-30 md:mt-0 md:py-8">
+	<div class="container grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+		{confidence_items.map((item) => (
+			<div class="bg-white p-8 rounded-3xl flex items-center gap-6 shadow-md transition-all duration-300 hover:-translate-y-1.5 hover:shadow-xl hover:border-secondary border border-transparent">
+				<div class="w-14 h-14 bg-gradient-to-br from-primary to-secondary text-white rounded-full flex items-center justify-center shrink-0">
+					{item.icon === 'check' && <FaStar size={24} />}
+					{item.icon === 'user' && <FaUser size={24} />}
+					{item.icon === 'calendar' && <FaCalendarDay size={24} />}
+					{item.icon === 'clock' && <FaClock size={24} />}
+				</div>
+				<p class="font-bold text-primary text-base leading-tight">
+					{item.text}
+				</p>
+			</div>
+		))}
+	</div>
+</section>

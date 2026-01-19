@@ -1,0 +1,72 @@
+{
+  "client": {
+    "name": "Mozione Kinesiología + RPG",
+    "type": "Centro de rehabilitación y salud",
+    "industry": "Medicina y salud",
+    "location": "Rafaela, Santa Fe",
+    "address": "Av. Mitre 494",
+    "maps_link": "https://www.google.com/maps/place/Av.+Mitre+494,+Rafaela,+Santa+Fe",
+    "phone": "3492588443",
+    "whatsapp": "5493492588443",
+    "email": "contacto@mozione.com.ar",
+    "instagram": "https://www.instagram.com/mozionekinesiologia/?hl=es-la",
+    "instagram_label": "@mozionekinesiologia",
+    "facebook": "https://www.facebook.com/mozionekinesiologia",
+    "facebook_label": "Mozione Kinesiología",
+    "hours": "Lunes a Viernes de 08:00 a 20:00 hs",
+    "rating": 5.0,
+    "reviews_count": 39,
+    "logo": "/images/mozione_logo.png"
+  },
+  "hero": {
+    "title": "Mozione Kinesiología y RPG",
+    "subtitle": "Atención profesional enfocada en tu recuperación y bienestar postural.",
+    "cta_main": "Consultar por WhatsApp",
+    "cta_sec": "Llamar ahora",
+    "logo": "/mozione/mozione_logo.jpg"
+  },
+  "confidence_items": [
+    { "icon": "check", "text": "Excelencia certificada (5.0 en Google)" },
+    { "icon": "user", "text": "Atención personalizada" },
+    { "icon": "calendar", "text": "Turnos coordinados por WhatsApp" },
+    { "icon": "clock", "text": "Horarios amplios (08 a 20hs)" }
+  ],
+  "about": {
+    "title": "Sobre Mozione",
+    "text": "Somos un centro consolidado en Rafaela, especializado en Kinesiología y Reeducación Postural Global (RPG). Nuestro enfoque se centra en entender el origen de tu síntoma para tratar la causa raíz, priorizando una comunicación clara y resultados duraderos.",
+    "image": "/images/mozione_logo.png"
+  },
+  "services": [
+    {
+      "title": "Kinesiología Integral",
+      "description": "Rehabilitación de lesiones deportivas y traumatológicas con equipos de última generación.",
+      "cta": "Reservar turno"
+    },
+    {
+      "title": "RPG (Posturología)",
+      "description": "Corrección de posturas disfuncionales y tratamiento de dolores crónicos de columna.",
+      "cta": "Ver más"
+    },
+    {
+      "title": "Fisioterapia",
+      "description": "Aplicación de agentes físicos para el alivio del dolor y desinflamación.",
+      "cta": "Consultar"
+    }
+  ],
+  "differential": {
+    "title": "Nuestro Enfoque",
+    "bullets": [
+      "Atención centrada en la persona",
+      "Seguimiento continuo de la evolución",
+      "Comunicación clara y directa sobre tu tratamiento"
+    ]
+  },
+  "theme": {
+    "primary": "#1a4696",
+    "secondary": "#00a8e8",
+    "accent": "#00a8e8",
+    "bg": "#ffffff",
+    "text": "#1f2937",
+    "whatsapp": "#25d366"
+  }
+}

@@ -1,0 +1,55 @@
+---
+import siteData from '../config/site.json';
+import { FaWhatsapp } from 'react-icons/fa';
+import '../styles/global.css';
+
+interface Props {
+	title?: string;
+	description?: string;
+}
+
+const { client, theme, hero } = siteData;
+const { title = `${hero.title} | ${client.name}`, description = hero.subtitle } = Astro.props;
+
+const whatsappUrl = `https://wa.me/${client.whatsapp}?text=${encodeURIComponent('Hola! Quisiera coordinar una consulta.')}`;
+---
+
+<!doctype html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="description" content={description} />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="generator" content={Astro.generator} />
+		<title>{title}</title>
+		
+		<!-- SEO Local -->
+		<meta name="geo.region" content="AR" />
+		<meta name="geo.placename" content={client.location} />
+		<meta name="geo.position" content="-31.2503;-61.4867" />
+		<meta name="ICBM" content="-31.2503, -61.4867" />
+
+		<!-- Google Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@500;700;800&display=swap" rel="stylesheet">
+	</head>
+	<body class="bg-gray-50 overflow-x-hidden">
+		<slot />
+		
+		<a href={whatsappUrl} class="fixed bottom-10 right-10 w-16 h-16 bg-[#25d366] text-white rounded-full flex items-center justify-center shadow-2xl z-50 transition-all hover:scale-110 hover:rotate-6 sm:w-14 sm:h-14 sm:bottom-5 sm:right-5" target="_blank" aria-label="Contacto por WhatsApp">
+			<FaWhatsapp size={36} />
+		</a>
+
+		<style is:global define:vars={{
+			'primary-color': theme.primary,
+			'secondary-color': theme.secondary,
+			'accent-color': theme.accent,
+			'bg-color': theme.bg,
+			'text-color': theme.text,
+			'whatsapp-color': theme.whatsapp
+		}}>
+		</style>
+	</body>
+</html>

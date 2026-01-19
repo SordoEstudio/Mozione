@@ -1,0 +1,25 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Hero from '../components/Hero.astro';
+import Confidence from '../components/Confidence.astro';
+import About from '../components/About.astro';
+import Services from '../components/Services.astro';
+import Differential from '../components/Differential.astro';
+import Location from '../components/Location.astro';
+import CTA from '../components/CTA.astro';
+import Footer from '../components/Footer.astro';
+import siteData from '../config/site.json';
+---
+
+<Layout title={`${siteData.client.name} | ${siteData.hero.title}`}>
+	<main>
+		<Hero />
+		<Confidence />
+		<About />
+		<Services />
+		<Differential />
+		<Location />
+		<CTA />
+	</main>
+	<Footer />
+</Layout>
