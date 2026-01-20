@@ -15,7 +15,7 @@ const initials = client.name
 	.slice(0, 2);
 ---
 
-<header class="relative bg-center bg-cover min-h-[90vh] flex items-center pt-40 pb-32 overflow-hidden" style={`background-image: url('${heroBg}');`}>
+<header class="relative bg-center bg-cover min-h-[100vh] flex items-center pt-40 pb-32 overflow-hidden" style={`background-image: url('${heroBg}');`}>
 	<div class="absolute inset-0 bg-gradient-to-r from-white/98 via-white/95 to-white/70 z-10"></div>
 	
 	<div class="container relative z-20">
@@ -23,7 +23,7 @@ const initials = client.name
 			<div class="flex items-center gap-8 mb-10 md:flex-col md:gap-4 md:items-start">
 				<div class="flex items-center justify-center">
 					{client.logo ? (
-						<div class="bg-white p-2 rounded-full shadow-md">
+						<div class="bg-white p-2 rounded-full shadow-md ">
 							<img src={client.logo} alt={client.name} class="h-50 w-auto object-contain rounded-full" />
 						</div>
 					) : (
@@ -32,8 +32,8 @@ const initials = client.name
 						</div>
 					)}
 				</div>
-				<span class="font-bold text-secondary text-sm uppercase tracking-widest bg-secondary/10 px-4 py-2 rounded-full flex items-center gap-2">
-					<FaMapMarkerAlt size={20} /> {client.location}
+				<span class="font-bold text-gray-600 text-sm uppercase tracking-widest bg-white/80 backdrop-blur-sm px-4 py-2 rounded-full flex items-center gap-2 ring-1 ring-black/5">
+					<FaMapMarkerAlt size={18} class="text-primary" /> {client.location}
 				</span>
 			</div>
 			
@@ -46,14 +46,14 @@ const initials = client.name
 			</p>
 			
 			<div class="flex gap-6 md:flex-col">
-				<a href={whatsappUrl} class="btn btn-whatsapp text-lg px-10 py-4" target="_blank">
+				<a href={whatsappUrl} class="btn btn-outline text-lg px-10 py-4 decoration-none" target="_blank">
 					<FaWhatsapp size={22} />
 					{hero.cta_main}
 				</a>
-				<a href={`tel:${client.phone}`} class="btn bg-white border-2 border-primary text-primary hover:bg-primary hover:text-white text-lg px-10 py-4 decoration-none">
+{/*				<a href={`tel:${client.phone}`} class="btn btn-outline text-lg px-10 py-4 decoration-none">
 					<FaPhone size={20} />
 					{hero.cta_sec}
-				</a>
+				</a>*/}
 			</div>
 		</div>
 	</div>

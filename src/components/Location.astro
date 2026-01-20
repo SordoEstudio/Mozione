@@ -6,32 +6,31 @@ const { client } = siteData;
 
 <section id="ubicacion" class="py-32 bg-gray-50 md:py-16">
 	<div class="container grid grid-cols-1 lg:grid-cols-[1fr_1.2fr] gap-20 items-center">
-		<div>
-			<h2 class="text-5xl font-extrabold text-primary mb-14 relative inline-block md:text-3xl">
-				Ubicación y Horarios
-				<div class="absolute -bottom-4 left-0 w-16 h-1 bg-secondary rounded-full"></div>
+		<div class="card-static p-12 md:p-8">
+			<h2 class="text-4xl font-extrabold text-primary mb-12 flex items-center gap-4 md:text-3xl">
+				<FaMapMarkerAlt class="text-secondary" /> Ubicación y Horarios
 			</h2>
 			
 			<div class="space-y-12">
 				<div>
-					<div class="flex items-center gap-4 text-secondary mb-3">
+					<div class="flex items-center gap-4 text-primary mb-3">
 						<FaMapMarkerAlt size={22} class="opacity-80" />
-						<h3 class="text-xs font-bold uppercase tracking-widest text-secondary/80">
+						<h3 class="text-xs font-bold uppercase tracking-widest text-gray-500">
 							Dirección
 						</h3>
 					</div>
 					<p class="text-2xl font-bold text-primary mb-3 md:text-lg">
 						{client.address}, {client.location}
 					</p>
-					<a href={client.maps_link} target="_blank" class="inline-flex items-center gap-2 text-secondary font-bold text-sm decoration-none hover:border-b-2 border-secondary transition-all">
+					<a href={client.maps_link} target="_blank" class="inline-flex items-center gap-2 text-primary font-bold text-sm decoration-none hover:border-b-2 border-primary transition-all">
 						Abrir en Google Maps <FaExternalLinkAlt size={12} />
 					</a>
 				</div>
 
 				<div>
-					<div class="flex items-center gap-4 text-secondary mb-3">
+					<div class="flex items-center gap-4 text-primary mb-3">
 						<FaClock size={22} class="opacity-80" />
-						<h3 class="text-xs font-bold uppercase tracking-widest text-secondary/80">
+						<h3 class="text-xs font-bold uppercase tracking-widest text-gray-500">
 							Horarios de Atención
 						</h3>
 					</div>
@@ -41,9 +40,9 @@ const { client } = siteData;
 				</div>
 
 				<div>
-					<div class="flex items-center gap-4 text-secondary mb-3">
+					<div class="flex items-center gap-4 text-primary mb-3">
 						<FaMobileAlt size={22} class="opacity-80" />
-						<h3 class="text-xs font-bold uppercase tracking-widest text-secondary/80">
+						<h3 class="text-xs font-bold uppercase tracking-widest text-gray-500">
 							Modalidad
 						</h3>
 					</div>

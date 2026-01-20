@@ -19,16 +19,16 @@ const whatsappUrl = `https://wa.me/${client.whatsapp}`;
 		
 		<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
 			{services.map((service) => (
-				<div class="bg-white p-14 rounded-[30px] shadow-md transition-all duration-300 hover:-translate-y-2.5 hover:shadow-2xl hover:border-secondary border border-gray-100 flex flex-col md:p-10">
+				<div class="card-static p-10 flex flex-col md:p-8">
 					<h3 class="text-3xl font-bold text-primary mb-5 md:text-2xl">
 						{service.title}
 					</h3>
 					<p class="text-gray-600 leading-relaxed mb-8 opacity-80 flex-grow">
 						{service.description}
 					</p>
-					<a href={whatsappUrl} class="flex items-center gap-2 text-secondary font-bold uppercase tracking-widest text-sm decoration-none group" target="_blank">
+					<a href={whatsappUrl} class="flex items-center gap-2 text-primary font-bold uppercase tracking-widest text-xs decoration-none group transition-all hover:translate-x-1" target="_blank">
 						{service.cta} 
-						<FaChevronRight size={14} class="transition-transform group-hover:translate-x-1" />
+						<FaChevronRight size={12} class="transition-transform group-hover:translate-x-1" />
 					</a>
 				</div>
 			))}

@@ -1,6 +1,6 @@
 ---
 import siteData from '../data/dataService';
-import { FaCheckCircle } from 'react-icons/fa';
+import { FaCheck } from 'react-icons/fa';
 const { differential } = siteData;
 const diffBg = differential.bg_image || '/images/diff_banner.png';
 ---
@@ -9,19 +9,21 @@ const diffBg = differential.bg_image || '/images/diff_banner.png';
 	<div class="relative bg-center bg-cover py-40 rounded-[40px] mx-6 overflow-hidden md:mx-0 md:rounded-none md:py-16" style={`background-image: url('${diffBg}');`}>
 		<div class="absolute inset-0 bg-gradient-to-b from-primary/80 to-slate-900/90"></div>
 		
-		<div class="container relative z-20">
-			<div class="bg-white p-16 rounded-[30px] shadow-2xl max-w-3xl border-l-[10px] border-secondary md:p-10 md:mx-auto md:text-center md:border-l-0 md:border-t-[10px]">
+		<div class="container relative z-20 ">
+			<div class="card-static bg-white/40  backdrop-blur-md p-16 max-w-3xl md:p-10 md:mx-auto md:text-center">
 				<h2 class="text-5xl font-extrabold text-primary mb-10 md:text-3xl">
 					{differential.title}
 				</h2>
 				
 				<ul class="space-y-6">
 					{differential.bullets.map((bullet) => (
-						<li class="flex items-center gap-5 text-xl font-medium text-gray-700 md:text-lg md:justify-center">
-							<FaCheckCircle class="text-primary shrink-0" size={24} />
-							<span>{bullet}</span>
-						</li>
-					))}
+					<li class="flex items-center gap-6 text-2xl font-medium md:text-lg">
+						<div class="w-10 h-10  rounded-full flex items-center justify-center  shrink-0">
+							<FaCheck size={20} class="text-primary" />
+						</div>
+						{bullet}
+					</li>
+				))}
 				</ul>
 			</div>
 		</div>

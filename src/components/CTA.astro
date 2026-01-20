@@ -6,16 +6,16 @@ const { client } = siteData;
 const whatsappUrl = `https://wa.me/${client.whatsapp}?text=${encodeURIComponent('Hola! Quiero coordinar una consulta.')}`;
 ---
 
-<section class="py-24 bg-white">
+<section class="py-24 bg-gray-50/50">
 	<div class="container">
-		<div class="bg-white p-20 rounded-[40px] text-center shadow-2xl border-t-8 border-secondary md:p-12">
+		<div class="card-soft p-20 text-center md:p-12">
 			<h2 class="text-4xl font-extrabold text-primary mb-4 md:text-3xl">
 				¿Querés coordinar una consulta?
 			</h2>
 			<p class="text-xl text-gray-500 mb-10 opacity-80 md:text-lg">
 				Hacé clic en el botón de abajo para hablar directamente por WhatsApp.
 			</p>
-			<a href={whatsappUrl} class="btn btn-whatsapp text-2xl px-12 py-5 md:text-lg md:px-8 md:py-4" target="_blank">
+			<a href={whatsappUrl} class="btn btn-primary w-full max-w-md py-5 text-xl" target="_blank">
 				<FaWhatsapp size={32} class="md:size-6" />
 				Consultar por WhatsApp
 			</a>
