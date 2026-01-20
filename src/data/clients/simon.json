@@ -1,0 +1,74 @@
+{
+  "client": {
+    "name": "Simón Karlen",
+    "type": "Kinesiólogo",
+    "industry": "Kinesiología y Fisioterapia",
+    "location": "Rafaela, Santa Fe",
+    "address": "Salta 157",
+    "maps_link": "https://www.google.com/maps/place/Salta+157,+Rafaela,+Santa+Fe",
+    "phone": "0349215650903",
+    "whatsapp": "5493492650903",
+    "email": "contacto@simonkarlen.com.ar",
+    "instagram": "https://www.instagram.com/",
+    "instagram_label": "@simonpkarlen",
+    "facebook": "",
+    "facebook_label": "",
+    "hours": "Lunes a Viernes (Consultar)",
+    "rating": 4.7,
+    "reviews_count": 12,
+    "logo": false
+  },
+  "hero": {
+    "title": "Recuperación física con enfoque humano",
+    "subtitle": "Atención kinésica personalizada e integral para volver a tu mejor versión. Profesionalismo avalado por más de 10 años de experiencia.",
+    "cta_main": "Consultar Turnos",
+    "cta_sec": "Llamar",
+    "logo": false,
+    "bg_image": "/images/simon/hero_bg.png"
+  },
+  "confidence_items": [
+    { "icon": "check", "text": "Atención personalizada" },
+    { "icon": "user", "text": "Kinesiólogo Matriculado" },
+    { "icon": "calendar", "text": "Turnos inmediatos" },
+    { "icon": "clock", "text": "Seguimiento individual" }
+  ],
+  "about": {
+    "title": "Sobre mí",
+    "text": "Soy el Lic. Simón Karlen, dedicado a la kinesiología con una filosofía basada en la escucha activa y el tratamiento personalizado. Mi objetivo es que logres tu bienestar físico mediante técnicas modernas y un acompañamiento constante en tu rehabilitación.",
+    "image": "/images/simon/profile.avif"
+  },
+  "services": [
+    {
+      "title": "Kinesiología Clásica",
+      "description": "Tratamiento de patologías comunes, contracturas y dolores crónicos.",
+      "cta": "Consultar"
+    },
+    {
+      "title": "Fisioterapia",
+      "description": "Uso de tecnología para acelerar los procesos de desinflamación y cicatrización.",
+      "cta": "Saber más"
+    },
+    {
+      "title": "Rehabilitación",
+      "description": "Programas específicos para post-operatorios y lesiones musculares.",
+      "cta": "WhatsApp"
+    }
+  ],
+  "differential": {
+    "title": "Atención sin esperas",
+    "bullets": [
+      "Tratamiento exclusivo cara a cara",
+      "Equipamiento de primer nivel",
+      "Consultorio moderno y céntrico"
+    ],
+    "bg_image": "/images/simon/hero_bg.png"
+  },
+  "theme": {
+    "primary": "#334155",
+    "secondary": "#64748b",
+    "accent": "#3b82f6",
+    "bg": "#ffffff",
+    "text": "#1e293b",
+    "whatsapp": "#25d366"
+  }
+}

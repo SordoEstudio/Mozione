@@ -6,7 +6,17 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "switch": "node scripts/switch-client.js",
+    "extract-theme": "node scripts/generate-theme.js",
+    "dev:mozione": "PUBLIC_CLIENT_ID=mozione astro dev",
+    "dev:ser": "PUBLIC_CLIENT_ID=ser astro dev",
+    "dev:simon": "PUBLIC_CLIENT_ID=simon astro dev",
+    "dev:keep": "PUBLIC_CLIENT_ID=keep astro dev",
+    "dev:lotus": "PUBLIC_CLIENT_ID=lotus astro dev",
+    "dev:adrian": "PUBLIC_CLIENT_ID=adrian astro dev",
+    "dev:checkmed": "PUBLIC_CLIENT_ID=checkmed astro dev",
+    "dev:triades": "PUBLIC_CLIENT_ID=triades astro dev"
   },
   "dependencies": {
     "@astrojs/react": "^4.4.2",
@@ -14,6 +24,8 @@
     "@types/react": "^19.2.8",
     "@types/react-dom": "^19.2.3",
     "astro": "^5.16.11",
+    "canvas": "^3.2.1",
+    "colorthief": "^2.6.0",
     "react": "^19.2.3",
     "react-dom": "^19.2.3",
     "react-icons": "^5.5.0",

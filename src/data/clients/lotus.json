@@ -1,0 +1,74 @@
+{
+  "client": {
+    "name": "Lotus",
+    "type": "Espacio Integral de Salud",
+    "industry": "Salud y Rehabilitación",
+    "location": "Rafaela, Santa Fe",
+    "address": "Chacabuco 347",
+    "maps_link": "https://www.google.com/maps/place/Chacabuco+347,+Rafaela,+Santa+Fe",
+    "phone": "0349215393479",
+    "whatsapp": "5493492393479",
+    "email": "contacto@lotussalud.com.ar",
+    "instagram": "https://www.instagram.com/lotusespaciointegraldesalud/",
+    "instagram_label": "@lotusespaciointegraldesalud",
+    "facebook": "https://www.facebook.com/lotusrehabilitacion/",
+    "facebook_label": "Lotus Rehabilitación",
+    "hours": "Lunes a Viernes (08:00–18:30)",
+    "rating": 5.0,
+    "reviews_count": 16,
+    "logo": "/images/lotus/lotus-logo.jpg"
+  },
+  "hero": {
+    "title": "Bienestar integral para tu vida",
+    "subtitle": "Un espacio dedicado a la rehabilitación y el cuidado de tu salud con un enfoque humano y profesional en Rafaela.",
+    "cta_main": "Reservar Turno",
+    "cta_sec": "Nuestra Clínica",
+    "logo": "/images/lotus/lotus-logo.jpg",
+    "bg_image": "/images/hero_bg.png"
+  },
+  "confidence_items": [
+    { "icon": "check", "text": "Equipo interdisciplinario" },
+    { "icon": "user", "text": "Atención personalizada" },
+    { "icon": "calendar", "text": "Facilidad de turnos" },
+    { "icon": "clock", "text": "Puntualidad y compromiso" }
+  ],
+  "about": {
+    "title": "Un espacio pensado para vos",
+    "text": "Lotus es un centro de salud integral donde combinamos diversas disciplinas para ofrecerte un tratamiento completo. Nos enfocamos en la persona de manera global, brindando un ambiente cálido y profesional para tu recuperación y mantenimiento de la salud.",
+    "image": "/images/about_rehab.png"
+  },
+  "services": [
+    {
+      "title": "Kinesiología",
+      "description": "Rehabilitación física con técnicas avanzadas para diversas patologías.",
+      "cta": "Consultar"
+    },
+    {
+      "title": "Fisiatría",
+      "description": "Atención médica especializada en rehabilitación y medicina física.",
+      "cta": "Saber más"
+    },
+    {
+      "title": "Terapia Ocupacional",
+      "description": "Acompañamiento para recuperar la autonomía en las actividades diarias.",
+      "cta": "Más info"
+    }
+  ],
+  "differential": {
+    "title": "¿Por qué elegir Lotus?",
+    "bullets": [
+      "Visión holística de la salud",
+      "Profesionales en formación constante",
+      "Ambiente moderno y relajado"
+    ],
+    "bg_image": "/images/diff_banner.png"
+  },
+  "theme": {
+    "primary": "#5142A1",
+    "secondary": "#8ECBC5",
+    "accent": "#8ECBC5",
+    "bg": "#ffffff",
+    "text": "#1e293b",
+    "whatsapp": "#25d366"
+  }
+}

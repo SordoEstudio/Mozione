@@ -1,0 +1,86 @@
+{
+  "client": {
+    "name": "CheckMed Sports",
+    "type": "Clínica Deportiva",
+    "industry": "Medicina del Deporte",
+    "location": "Rafaela, Santa Fe",
+    "address": "Av. Gral. Bartolomé Mitre 283",
+    "maps_link": "https://www.google.com/maps/place/Av.+Gral.+Bartolom%C3%A9+Mitre+283,+Rafaela,+Santa+Fe",
+    "phone": "03492286687",
+    "whatsapp": "5493492286687",
+    "email": "contacto@checkmedsports.com.ar",
+    "instagram": "https://www.instagram.com/checkmedsportsrafaela/",
+    "instagram_label": "@checkmedsportsrafaela",
+    "facebook": "",
+    "facebook_label": "",
+    "hours": "Lunes a Viernes (Cierra 20:00)",
+    "rating": 4,
+    "reviews_count": 2,
+    "logo": "/images/checkmed/checkmed-logo.jpeg"
+  },
+  "hero": {
+    "title": "Rendimiento y salud para el deportista",
+    "subtitle": "Atención integral especializada en medicina deportiva en el corazón de Rafaela. Tu mejor versión, bajo supervisión médica profesional.",
+    "cta_main": "Reservar Turno",
+    "cta_sec": "Nuestra Ubicación",
+    "logo": "/images/checkmed/checkmed-logo.jpeg",
+    "bg_image": "/images/hero_bg.png"
+  },
+  "confidence_items": [
+    {
+      "icon": "check",
+      "text": "Especialistas en deporte"
+    },
+    {
+      "icon": "user",
+      "text": "Atención interdisciplinaria"
+    },
+    {
+      "icon": "calendar",
+      "text": "Turnos rápidos"
+    },
+    {
+      "icon": "clock",
+      "text": "Puntualidad médica"
+    }
+  ],
+  "about": {
+    "title": "Tu salud deportiva nuestra prioridad",
+    "text": "En CheckMed Sports nos enfocamos en el acompañamiento integral del deportista, desde el aficionado hasta el profesional. Contamos con un equipo médico especializado en traumatología, kinesiología y nutrición deportiva para asegurar tu máximo rendimiento.",
+    "image": "/images/about_rehab.png"
+  },
+  "services": [
+    {
+      "title": "Medicina Deportiva",
+      "description": "Evaluación funcional y seguimiento del rendimiento físico.",
+      "cta": "Consultar"
+    },
+    {
+      "title": "Traumatología",
+      "description": "Tratamiento especializado en lesiones óseas y musculares.",
+      "cta": "Saber más"
+    },
+    {
+      "title": "Nutrición",
+      "description": "Planes de alimentación personalizados para potenciar tu entrenamiento.",
+      "cta": "WhatsApp"
+    }
+  ],
+  "differential": {
+    "title": "¿Por qué CheckMed Sports?",
+    "bullets": [
+      "Enfoque directo al rendimiento",
+      "Tecnología en diagnóstico deportivo",
+      "Ubicación céntrica estratégica"
+    ],
+    "bg_image": "/images/diff_banner.png"
+  },
+  "theme": {
+    "primary": "#fa7c24",
+    "secondary": "#2a282a",
+    "accent": "#9a5a36",
+    "bg": "#ffffff",
+    "text": "#1e293b",
+    "whatsapp": "#25d366"
+  }
+}

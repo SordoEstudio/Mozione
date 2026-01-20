@@ -1,0 +1,86 @@
+{
+  "client": {
+    "name": "TRIADES",
+    "type": "Terapia Manual + Salud",
+    "industry": "Kinesiología y Osteopatía",
+    "location": "Rafaela, Santa Fe",
+    "address": "Int. Gimenez 181",
+    "maps_link": "https://www.google.com/maps/place/Int.+Gimenez+181,+Rafaela,+Santa+Fe",
+    "phone": "0349215572434",
+    "whatsapp": "5493492572434",
+    "email": "contacto@triades.com.ar",
+    "instagram": "https://www.instagram.com/triades.rafaela/",
+    "instagram_label": "@triades.rafaela",
+    "facebook": "https://www.facebook.com/triades.rafaela/",
+    "facebook_label": "TRIADES Rafaela",
+    "hours": "Lunes a Viernes (Cierra 20:00)",
+    "rating": 4.9,
+    "reviews_count": 7,
+    "logo": "/images/triades/triades-logo.png"
+  },
+  "hero": {
+    "title": "Terapia manual centrada en tu salud",
+    "subtitle": "Kinesiología, Osteopatía y RPG en un espacio diseñado para tu recuperación integral. Recuperá tu bienestar con especialistas.",
+    "cta_main": "Reservar Turno",
+    "cta_sec": "Nuestros Servicios",
+    "logo": "/images/triades/triades-logo.png",
+    "bg_image": "/images/triades/triades-banner.jpg"
+  },
+  "confidence_items": [
+    {
+      "icon": "check",
+      "text": "Especialistas en Terapia Manual"
+    },
+    {
+      "icon": "user",
+      "text": "Atención personalizada clínica"
+    },
+    {
+      "icon": "calendar",
+      "text": "Turnos disponibles"
+    },
+    {
+      "icon": "clock",
+      "text": "Puntualidad y resultados"
+    }
+  ],
+  "about": {
+    "title": "Recuperación y bienestar",
+    "text": "En TRIADES nos especializamos en terapia manual y salud integral. Nuestro enfoque multidisciplinario combina la kinesiología clásica con osteopatía, RPG y fisiatría para ofrecerte una solución efectiva y duradera a tus dolencias físicas.",
+    "image": "/images/triades/triades-banner.jpg"
+  },
+  "services": [
+    {
+      "title": "Osteopatía y RPG",
+      "description": "Tratamientos globales para corregir posturas y liberar tensiones profundas.",
+      "cta": "Consultar"
+    },
+    {
+      "title": "Traumatología",
+      "description": "Especialistas en lesiones ortopédicas y rehabilitación post-quirúrgica.",
+      "cta": "Saber más"
+    },
+    {
+      "title": "Punción Seca",
+      "description": "Técnica avanzada para el tratamiento de puntos gatillo y dolor muscular.",
+      "cta": "WhatsApp"
+    }
+  ],
+  "differential": {
+    "title": "¿Por qué elegir TRIADES?",
+    "bullets": [
+      "Variedad de especialidades en un solo lugar",
+      "Experiencia en plantillas deportivas",
+      "Atención cálida y profesional"
+    ],
+    "bg_image": "/images/triades/triades-banner.jpg"
+  },
+  "theme": {
+    "primary": "#35c2cf",
+    "secondary": "#54545c",
+    "accent": "#f2960b",
+    "bg": "#ffffff",
+    "text": "#1e293b",
+    "whatsapp": "#25d366"
+  }
+}

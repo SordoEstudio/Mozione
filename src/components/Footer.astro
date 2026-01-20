@@ -1,14 +1,30 @@
 ---
-import siteData from '../config/site.json';
+import siteData from '../data/dataService';
 import { FaInstagram, FaFacebook, FaMapMarkerAlt, FaPhone } from 'react-icons/fa';
 const { client } = siteData;
+
+// Lógica de iniciales para placeholder
+const initials = client.name
+	.split(' ')
+	.map(n => n[0])
+	.join('')
+	.toUpperCase()
+	.slice(0, 2);
 ---
 
 <footer class="bg-slate-900 text-slate-400 pt-24">
 	<div class="container grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-16 mb-20 md:text-center">
 		<div class="flex flex-col md:items-center">
-			<div class="w-40 h-40 bg-white p-2 rounded-full mb-6">
-				<img src={client.logo} alt={client.name} class="w-full h-full object-contain rounded-full" />
+			<div class="flex items-center justify-center mb-6">
+				{client.logo ? (
+					<div class="w-20 h-20 bg-white p-2 rounded-full">
+						<img src={client.logo} alt={client.name} class="w-full h-full object-contain rounded-full" />
+					</div>
+				) : (
+					<div class="w-20 h-20 bg-gradient-to-br from-primary to-secondary text-white rounded-2xl flex items-center justify-center shadow-lg text-2xl font-bold">
+						{initials}
+					</div>
+				)}
 			</div>
 			<h3 class="text-white text-2xl font-bold mb-2">
 				{client.name}

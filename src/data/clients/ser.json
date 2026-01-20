@@ -1,0 +1,86 @@
+{
+  "client": {
+    "name": "Ser Kinesiología",
+    "type": "Kinesiólogo",
+    "industry": "Medicina y salud",
+    "location": "Rafaela, Santa Fe",
+    "address": "Castellanos 364",
+    "maps_link": "https://www.google.com/maps/place/Castellanos+364,+Rafaela,+Santa+Fe",
+    "phone": "03492385171",
+    "whatsapp": "5493492385171",
+    "email": "contacto@serkinesiologia.com.ar",
+    "instagram": "https://www.instagram.com/",
+    "instagram_label": "@serkinesiologia",
+    "facebook": "https://www.facebook.com/",
+    "facebook_label": "Ser Kinesiología",
+    "hours": "Lunes a Viernes (Consultar horarios)",
+    "rating": 5,
+    "reviews_count": 3,
+    "logo": "/images/ser/ser-logo.jpg"
+  },
+  "hero": {
+    "title": "Recuperá tu movimiento naturales",
+    "subtitle": "Atención kinésica personalizada con un enfoque integral para tu salud en Rafaela.",
+    "cta_main": "Turnos por WhatsApp",
+    "cta_sec": "Llamar ahora",
+    "logo": "/images/ser/ser-logo.jpg",
+    "bg_image": "/images/ser/ser-banner.jpg"
+  },
+  "confidence_items": [
+    {
+      "icon": "check",
+      "text": "Atención 100% personalizada"
+    },
+    {
+      "icon": "user",
+      "text": "Kinesiólogo profesional matriculado"
+    },
+    {
+      "icon": "calendar",
+      "text": "Turnos rápidos y flexibles"
+    },
+    {
+      "icon": "clock",
+      "text": "Tratamientos a tu medida"
+    }
+  ],
+  "about": {
+    "title": "Tu salud en buenas manos",
+    "text": "En Ser Kinesiología nos dedicamos a la rehabilitación integral, buscando no solo aliviar el dolor sino restaurar la funcionalidad total. Con un trato cercano y profesional, te acompañamos en cada etapa de tu recuperación.",
+    "image": "/images/ser/ser-banner.jpg"
+  },
+  "services": [
+    {
+      "title": "Kinesiología General",
+      "description": "Tratamiento de dolencias musculares y articulares crónicas o agudas.",
+      "cta": "Más información"
+    },
+    {
+      "title": "Rehabilitación Deportiva",
+      "description": "Retorno seguro al campo de juego tras lesiones traumáticas.",
+      "cta": "Consultar"
+    },
+    {
+      "title": "Fisioterapia",
+      "description": "Equipamiento especializado para procesos inflamatorios y analgesia.",
+      "cta": "Reservar"
+    }
+  ],
+  "differential": {
+    "title": "¿Por qué elegirnos?",
+    "bullets": [
+      "Tratamiento uno a uno sin esperas",
+      "Espacio moderno y climatizado",
+      "Seguimiento activo del progreso"
+    ],
+    "bg_image": "/images/ser/ser-banner.jpg"
+  },
+  "theme": {
+    "primary": "#fb7b0d",
+    "secondary": "#ffc20a",
+    "accent": "#e4a265",
+    "bg": "#ffffff",
+    "text": "#1e293b",
+    "whatsapp": "#25d366"
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "client": {
+    "name": "KEEP",
+    "type": "Gimnasio",
+    "industry": "Fitness y Bienestar",
+    "location": "Rafaela, Santa Fe",
+    "address": "Falucho 80",
+    "maps_link": "https://www.google.com/maps/place/Falucho+80,+Rafaela,+Santa+Fe",
+    "phone": "03492245122",
+    "whatsapp": "5493492245122",
+    "email": "contacto@keeprafaela.com.ar",
+    "instagram": "https://www.instagram.com/keep_rafaela/",
+    "instagram_label": "@keep_rafaela",
+    "facebook": "https://www.facebook.com/keeprafaela/",
+    "facebook_label": "KEEP Rafaela",
+    "hours": "Lun–Vie · 09:30–21:00",
+    "rating": 4.8,
+    "reviews_count": 31,
+    "logo": "/images/keep/keep-logo.jpeg"
+  },
+  "hero": {
+    "title": "Mantené el movimiento, superá tus límites",
+    "subtitle": "Entrenamiento personalizado y grupal en el corazón de Rafaela. Tu mejor versión empieza hoy en KEEP.",
+    "cta_main": "Consultar Planes",
+    "cta_sec": "Nuestra Ubicación",
+    "logo": "/images/keep/keep-logo.jpeg",
+    "bg_image": "/images/keep/keep-hero.jpg"
+  },
+  "confidence_items": [
+    {
+      "icon": "check",
+      "text": "Entrenamiento personalizado"
+    },
+    {
+      "icon": "user",
+      "text": "Profesores capacitados"
+    },
+    {
+      "icon": "calendar",
+      "text": "Horarios flexibles"
+    },
+    {
+      "icon": "clock",
+      "text": "Ambiente motivador"
+    }
+  ],
+  "about": {
+    "title": "Más que un gimnasio",
+    "text": "En KEEP creemos en el poder del movimiento para transformar vidas. Nuestro espacio está diseñado para que cada socio encuentre su propio ritmo, con el apoyo constante de profesionales y una comunidad que te impulsa a seguir adelante.",
+    "image": "/images/keep/keep-hero.jpg"
+  },
+  "services": [
+    {
+      "title": "Musculación",
+      "description": "Equipamiento moderno y rutinas a medida para cumplir tus objetivos de fuerza.",
+      "cta": "Consultar"
+    },
+    {
+      "title": "Entrenamiento Funcional",
+      "description": "Clases dinámicas para mejorar tu agilidad, resistencia y coordinación.",
+      "cta": "Ver Horarios"
+    },
+    {
+      "title": "Personal Trainer",
+      "description": "Seguimiento uno a uno para maximizar tus resultados de forma segura.",
+      "cta": "WhatsApp"
+    }
+  ],
+  "differential": {
+    "title": "¿Por qué entrenar en KEEP?",
+    "bullets": [
+      "Ubicación céntrica y accesible",
+      "Equipos de última tecnología",
+      "Clases segmentadas por nivel"
+    ],
+    "bg_image": "/images/diff_banner.png"
+  },
+  "theme": {
+    "primary": "#E12101",
+    "secondary": "#3b393c",
+    "accent": "#d1090b",
+    "bg": "#ffffff",
+    "text": "#1e293b",
+    "whatsapp": "#25d366"
+  }
+}

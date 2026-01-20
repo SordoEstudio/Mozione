@@ -1,0 +1,74 @@
+{
+  "client": {
+    "name": "Adrián Chingolani",
+    "type": "Kinesiólogo y Quiropráctico",
+    "industry": "Quiropraxia y Kinesiología",
+    "location": "Rafaela, Santa Fe",
+    "address": "Belgrano 1924",
+    "maps_link": "https://www.google.com/maps/place/Belgrano+1924,+Rafaela,+Santa+Fe",
+    "phone": "03492430939",
+    "whatsapp": "5493492644367",
+    "email": "contacto@adrianchingolani.com.ar",
+    "instagram": "https://www.instagram.com/quiropraxiatonal_/",
+    "instagram_label": "@quiropraxiatonal_",
+    "facebook": "",
+    "facebook_label": "",
+    "hours": "Lunes a Viernes (Consultar)",
+    "rating": 0,
+    "reviews_count": 0,
+    "logo": false
+  },
+  "hero": {
+    "title": "Ajustes precisos para tu bienestar",
+    "subtitle": "Quiropraxia Tonal: ajustes vertebrales suaves y específicos para liberar el potencial de tu sistema nervioso.",
+    "cta_main": "Consultar WhatsApp",
+    "cta_sec": "Llamar ahora",
+    "logo": false,
+    "bg_image": "/images/hero_bg.png"
+  },
+  "confidence_items": [
+    { "icon": "check", "text": "Lic. Kinesiología y Fisioterapia" },
+    { "icon": "user", "text": "Matrícula Profesional 199" },
+    { "icon": "calendar", "text": "Atención personalizada" },
+    { "icon": "clock", "text": "Enfoque clínico serio" }
+  ],
+  "about": {
+    "title": "Salud desde la columna",
+    "text": "Soy el Lic. Adrián Chingolani, especialista en Quiropraxia Tonal. Mi trabajo se centra en devolverle a tu cuerpo su capacidad innata de sanar mediante ajustes vertebrales suaves, precisos y seguros, mejorando la comunicación de tu sistema nervioso.",
+    "image": "/images/about_rehab.png"
+  },
+  "services": [
+    {
+      "title": "Quiropraxia Tonal",
+      "description": "Ajustes vertebrales no invasivos para mejorar la función nerviosa.",
+      "cta": "Saber más"
+    },
+    {
+      "title": "Kinesiología",
+      "description": "Tratamiento de afecciones del sistema músculo-esquelético.",
+      "cta": "Consultar"
+    },
+    {
+      "title": "Rehabilitación",
+      "description": "Acompañamiento en la recuperación de lesiones y dolores crónicos.",
+      "cta": "Turnos"
+    }
+  ],
+  "differential": {
+    "title": "¿Por qué elegirnos?",
+    "bullets": [
+      "Técnicas suaves y específicas",
+      "Atención profesional matriculada",
+      "Espacio de salud dedicado y tranquilo"
+    ],
+    "bg_image": "/images/diff_banner.png"
+  },
+  "theme": {
+    "primary": "#0f766e",
+    "secondary": "#2dd4bf",
+    "accent": "#14b8a6",
+    "bg": "#ffffff",
+    "text": "#111827",
+    "whatsapp": "#25d366"
+  }
+}
